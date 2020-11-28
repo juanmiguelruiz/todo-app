@@ -55,6 +55,14 @@ hr {
   outline: none;
 }
 
+
+element.style {
+}
+.tabs .tab a:hover, .tabs .tab a.active {
+    background-color: transparent;
+    color: black;
+}
+
 /*Mobile S*/
 
 @media screen and (min-width: 320px) and (max-width: 374px) {
