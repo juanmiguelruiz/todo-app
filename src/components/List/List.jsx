@@ -6,10 +6,11 @@ import "./styles.css";
 
 const List = ({ items, onItemsChange }) => {
   return (
-    <div className="row">
+    <div className="row list-container">
       <div className="header__tabs">
+        
         <Tabs>
-          <hr></hr>
+      
           <Tab
             options={{
               duration: 300,
@@ -19,7 +20,7 @@ const List = ({ items, onItemsChange }) => {
             }}
             title="All"
           >
-            <ul className="">
+                     <hr></hr>     <ul className="">
               {items.map(({ text, done }, i) => (
                 <Item
                   text={text}
@@ -45,7 +46,7 @@ const List = ({ items, onItemsChange }) => {
             }}
             title="Active"
           >
-            <ul className="">
+             <hr></hr>   <ul className="">
               {items.map(({ text, done }, i) =>
                 done === false ? (
                   <Item
@@ -74,7 +75,7 @@ const List = ({ items, onItemsChange }) => {
             }}
             title="Completed"
           >
-            <ul className="">
+              <hr></hr>  <ul className="">
               {items.map(({ text, done }, i) =>
                 done ? (
                   <Item

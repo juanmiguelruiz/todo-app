@@ -26,10 +26,13 @@ input[type="text"]:not(.browser-default):focus:not([readonly]) {
   height: 40px;
   text-transform: capitalize;
   margin-right: 10% !important;
+  margin-top: 1.5% !important;
 }
 
 .button__container {
   margin-right: 15% !important;
+  
+
 }
 
 .search-bar__container {
@@ -37,3 +40,59 @@ input[type="text"]:not(.browser-default):focus:not([readonly]) {
   display: flex;
   margin: 6% auto;
 }
+
+/*Mobile S*/
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .search-bar {
+    margin-left: 0 !important;
+  }
+  .button__container {
+    margin-right: 0 !important;
+  }
+
+}
+
+/*Mobile M*/
+
+@media screen and (min-width: 375px) and (max-width: 424px) {
+  .search-bar {
+    margin-left: 0 !important;
+  }
+  .button__container {
+    margin-right: 0 !important;
+  }
+}
+
+/*Mobile L*/
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+  .search-bar {
+    margin-left: 0 !important;
+  }
+  .button__container {
+    margin-right: 0 !important;
+  }
+}
+
+/*Tablet*/
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .search-bar {
+    margin-left: 0 !important;
+  }
+  .button__container {
+    margin-right: 0 !important;
+  }
+}
+
+/*Laptop*/
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+}
+
+/*Laptop L*/
+
+@media screen and (min-width: 1440px) {
+}
+

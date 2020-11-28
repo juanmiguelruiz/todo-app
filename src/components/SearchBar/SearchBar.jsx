@@ -10,7 +10,7 @@ const SearchBar = ({ defaultValue, onNewItem }) => {
 
   return (
     <div className="row search-bar__container">
-      <div className="col s6">
+      <div className="col l6 s8">
       <input
         className="search-bar"
         value={newItem}
@@ -25,7 +25,7 @@ const SearchBar = ({ defaultValue, onNewItem }) => {
         placeholder="add details"
       />
       </div>
-      <div className="col s2 button__container">
+      <div className="col s4 m3 l2 button__container">
       <a href
       className="btn search-bar__button"
         onClick={(e) => {
