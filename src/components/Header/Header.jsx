@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import List from "../List/List";
+import React from "react";
 import "./styles.css";
 
 const Header = () => {
